@@ -2,8 +2,9 @@
 main ()
 {
 	int marks;
-	printf("Enter your marks: ");
-	scanf("%d",&marks);
+	printf("Enter your marks: "); 
+	scanf("%d",&marks); //input of marks scored
+	//if-else-if ladder
 	if(marks>=85)
 	{
 		printf("\nGrade A");
